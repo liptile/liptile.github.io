@@ -1,0 +1,31 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <style>
+        #gitalk-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="gitalk-container"></div>
+    <script>
+    var gitalk = new Gitalk({
+        clientID: '1e58a30983b9148d086e', //clientID 
+        clientSecret: 'b3114f7d7321dd9efbbeaaab39a3afd64f90a18d', //clientSecret
+        repo: 'liptile.github.io', // 评论仓库名
+        owner: 'liptile',
+        admin: ['liptile'], //管理人
+        id: location.pathname, // 返回当前 URL 的路径部分作为id
+        language:'zh-CN', //语言
+        distractionFreeMode: false  // 无干扰模式
+    })
+    gitalk.render('gitalk-container')
+    </script>
+
