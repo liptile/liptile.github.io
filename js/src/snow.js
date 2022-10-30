@@ -1,3 +1,6 @@
+
+
+
 /*样式二*/
 /* 控制下雪 */
 function snowFall(snow) {
