@@ -1,0 +1,13 @@
+/*全局基础样式*/
+/*下面的样式放到全局css里面去*/
+/*页面鼠标默认样式*/
+body {
+/* 鼠标图标 */
+  cursor: url("../source/images/mise"), default;
+/*url("你的鼠标指针图标路径")*/
+}
+/*a标签跳转鼠标样式*/
+a:hover {
+  cursor: url("../source/images/mise"), pointer;
+/*url("你的鼠标指针图标路径")*/
+}

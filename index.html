@@ -7,8 +7,8 @@
 
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/%E6%97%85%E6%B8%B8-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/%E6%97%85%E6%B8%B8-16x16.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
@@ -17,10 +17,10 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-loading-bar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/orange/pace-theme-loading-bar.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.13.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
     <meta property="og:type" content="website">
 <meta property="og:title" content="Welcome to my blog!">
@@ -50,6 +50,18 @@
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 </head>
+
+<!-- 页面点击出现爱心 -->
+
+<script type="text/javascript" src="/js/src/love.js"></script>
+
+
+<!-- 页面点击出现烟花 -->
+
+ <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+ <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+ <script type="text/javascript" src="/js/src/fireworks.js"></script>
+
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -175,6 +187,9 @@
 
         </div>
       </div>
+
+
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=86 src="//music.163.com/outchain/player?type=2&id=1489891837&auto=1&height=66"></iframe>
     </div>
   </aside>
   <div class="sidebar-dimmer"></div>
@@ -439,9 +454,10 @@
     </div>
   </footer>
 
+ <!-- 自带文件勿删 -->
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
   
 
@@ -458,6 +474,158 @@
 
 <script class="next-config" data-name="changyan" type="application/json">{"enable":true,"appid":"cywlFhVGF","appkey":"aefb417fa322c380d179e86a7e38ad4c","count":true}</script>
 <script src="/js/third-party/comments/changyan.js"></script>
+
+
+  <script async src="/js/cursor/fireworks.js"></script>
+
+
+
+
+  <script src="/js/activate-power-mode.min.js"></script>
+  <script>
+    POWERMODE.colorful = true;
+    POWERMODE.shake = false;
+    document.body.addEventListener('input', POWERMODE);
+  </script>
+<!-- 看板娘 -->
+ <script src="/live2d-widget/autoload.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+
+<!-- 看板娘2.0
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+<script>
+    var jsonModel = [
+    "https://unpkg.com/live2d-widget-model-miku@1.0.5/assets/miku.model.json",// 初音
+    "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",// 萌娘
+    "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",// 小可爱（女）
+    "https://unpkg.com/live2d-widget-model-haruto@1.0.5/assets/haruto.model.json",// 小可爱（男）
+    "https://unpkg.com/live2d-widget-model-chitose@1.0.5/assets/chitose.model.json",// 小帅哥
+    ];
+    L2Dwidget.init({ 
+        "model": { 
+            "jsonPath": jsonModel[Math.floor(Math.random()*(jsonModel.length-1))],
+            "scale": 1 
+        }, 
+        "display": { 
+            "position": "left", // 位置left、right
+            "width": 66, // 宽度
+            "height": 90, // 高度
+            "hOffset": 10, // 横向边距
+            "vOffset": 0 // 众向边距
+        }, 
+        "mobile": { 
+            "show": false // 手机是否显示
+        },
+    });
+</script>
+-->
+
+<!-- 看板娘3.0 --
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+<script>
+    L2Dwidget.init({
+        "model": {
+            jsonPath: "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",
+//黑猫：https://unpkg.com/live2d-widget-model-hijiki@1.0.5/assets/hijiki.model.json
+//萌娘：https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json
+//白猫：https://unpkg.com/live2d-widget-model-tororo@1.0.5/assets/tororo.model.json
+//狗狗：https://unpkg.com/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json
+//小可爱：https://unpkg.com/live2d-widget-model-z16@1.0.5/assets/z16.model.json
+//小可爱：https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json
+
+            "scale": 1
+        },
+        "display": {
+            "position": "left",
+            "width": 75,
+            "height": 150,
+            "hOffset": 60,
+            "vOffset": -20
+        },
+        "mobile": {
+            "show": true,
+            "scale": 0.5
+        },
+        "react": {
+            "opacityDefault": 0.9,
+            "opacityOnHover": 0.2
+        }
+    });
+</script>
+-->
+
+<!-- 雪花特效 
+<script type="text/javascript">
+  var windowWidth = $(window).width();
+  if (windowWidth > 480) {
+    document.write('<script type="text/javascript" src="/js/src/snow.js"><\/script>');
+  }
+</script>
+-->
+
+<!-- 六边形雪花 -->
+<script type="text/javascript">
+(function($){
+    $.fn.snow = function(options){
+    var $flake = $('<div id="snowbox" />').css({'position': 'absolute','z-index':'9999', 'top': '-50px'}).html('&#10052;'),
+    documentHeight     = $(document).height(),
+    documentWidth    = $(document).width(),
+    defaults = {
+        minSize        : 10,
+        maxSize        : 20,
+        newOn        : 1000,
+        flakeColor    : "#AFDAEF" /* 此处可以定义雪花颜色，若要白色可以改为#FFFFFF */
+    },
+    options    = $.extend({}, defaults, options);
+    var interval= setInterval( function(){
+    var startPositionLeft = Math.random() * documentWidth - 100,
+    startOpacity = 0.5 + Math.random(),
+    sizeFlake = options.minSize + Math.random() * options.maxSize,
+    endPositionTop = documentHeight - 200,
+    endPositionLeft = startPositionLeft - 500 + Math.random() * 500,
+    durationFall = documentHeight * 10 + Math.random() * 5000;
+    $flake.clone().appendTo('body').css({
+        left: startPositionLeft,
+        opacity: startOpacity,
+        'font-size': sizeFlake,
+        color: options.flakeColor
+    }).animate({
+        top: endPositionTop,
+        left: endPositionLeft,
+        opacity: 0.2
+    },durationFall,'linear',function(){
+        $(this).remove()
+    });
+    }, options.newOn);
+    };
+})(jQuery);
+$(function(){
+    $.fn.snow({ 
+        minSize: 5, /* 定义雪花最小尺寸 */
+        maxSize: 30,/* 定义雪花最大尺寸 */
+        newOn: 300  /* 定义密集程度，数字越小越密集 */
+    });
+});
+</script>
+
+<!-- comments 
+<div id="vcomments"></div>
+<script>
+    new Valine({
+        el:'#vcomment',
+        appId: '22L9N7rZ8X9Z3VgCt693NCPl-gzGzoHsz',
+        appKey: 'XsAXpyUjKcNKrvJ4Q75vJK2s'
+    })
+</script>
+-->
+
+<!-- 樱花特效 -->
+  
+      <script async src="/js/src/fairyDustCursor.js"></script>
+  
+
+
 
 </body>
 </html>
