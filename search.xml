@@ -50,4 +50,20 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title></title>
+    <url>/2022/11/01/text/</url>
+    <content><![CDATA[<p> <strong>微分中值定理推导</strong></p>
+<p>内容包括：</p>
+<ul>
+<li>微分引入</li>
+<li>费马定理引入及证明</li>
+<li>罗尔定理引入及证明</li>
+<li>拉格朗日中值定理引入及证明</li>
+<li>柯西中值定理引入及证明</li>
+</ul>
+<h2 id="一-微分引入"><a href="#一-微分引入" class="headerlink" title="一. 微分引入"></a>一. 微分引入</h2><h5 id="1-定义：任一函数-Delta-y-x3D-f-x-0-Delta-x-f-x-0-可表示为-Delta-y-x3D-A-Delta-x-o-Delta-x-则表示函数在-x-处可微，其中定义微分-dy-x3D-A-Delta-x"><a href="#1-定义：任一函数-Delta-y-x3D-f-x-0-Delta-x-f-x-0-可表示为-Delta-y-x3D-A-Delta-x-o-Delta-x-则表示函数在-x-处可微，其中定义微分-dy-x3D-A-Delta-x" class="headerlink" title="1.定义：任一函数$$\Delta$$y$&#x3D;$f(x_0+\Delta x)$$-$$f(x_0)$$可表示为$\Delta y$&#x3D;$A\Delta x+o(\Delta x)$,则表示函数在$x$处可微，其中定义微分$dy&#x3D;A\Delta x$."></a>1.定义：任一函数$$\Delta$$y$&#x3D;$f(x_0+\Delta x)$$-$$f(x_0)$$可表示为$\Delta y$&#x3D;$A\Delta x+o(\Delta x)$,则表示函数在$x$处可微，其中定义微分$dy&#x3D;A\Delta x$.</h5><h5 id="2-常数：-A-x3D-lim-Delta-x-to0-frac-Delta-y-o-Delta-x-Delta-x-x3D-lim-Delta-x-to0-frac-Delta-y-Delta-x-frac-Delta-o-Delta-x-Delta-x"><a href="#2-常数：-A-x3D-lim-Delta-x-to0-frac-Delta-y-o-Delta-x-Delta-x-x3D-lim-Delta-x-to0-frac-Delta-y-Delta-x-frac-Delta-o-Delta-x-Delta-x" class="headerlink" title="2.常数：$A&#x3D;lim_{\Delta x\to0}{\frac{\Delta y-o(\Delta x)}{\Delta x}}&#x3D;lim_{\Delta x\to0}({\frac{\Delta y}{\Delta x}}-{\frac{\Delta o(\Delta x)}{\Delta x}})$"></a>2.常数：$A&#x3D;lim_{\Delta x\to0}{\frac{\Delta y-o(\Delta x)}{\Delta x}}&#x3D;lim_{\Delta x\to0}({\frac{\Delta y}{\Delta x}}-{\frac{\Delta o(\Delta x)}{\Delta x}})$</h5><p>$$<br>A&#x3D;lim_{\Delta x\to0}{\frac{\Delta y}{\Delta x}}&#x3D;f’(x_0)<br>$$</p>
+<p>所以可微</p>
+]]></content>
+  </entry>
 </search>
